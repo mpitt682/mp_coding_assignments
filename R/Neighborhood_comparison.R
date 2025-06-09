@@ -2,7 +2,7 @@
 
 # Problem 1
 
-neighbor = read.csv("C:\Users\pittm\OneDrive\Documents\UCSD\Github\Neighborhood_data.csv", header = T)
+neighbor = read.csv("Neighborhood_data.csv", header = T)
 neighbor
 attach(neighbor)
 sample.size = 20
