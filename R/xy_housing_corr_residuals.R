@@ -1,6 +1,6 @@
 # Intro to Statistics Using R: Homework 8
 # Problem 1
-xy = read.csv("~/Github/Corr_residuals_xy.csv", header = T)
+xy = read.csv("Corr_residuals_xy.csv", header = T)
 xy
 
 
@@ -35,7 +35,7 @@ qqnorm(resid.3)
 qqline(resid.3)
 
 # Problem 2
-house = read.csv("~/Github/Corr_residuals_housing.csv", header = T)
+house = read.csv("Corr_residuals_housing.csv", header = T)
 house
 
 # 2a
