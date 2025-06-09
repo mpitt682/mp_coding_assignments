@@ -1,6 +1,6 @@
 # Intro to Statistics Using R: Homework 8
 # Problem 1
-xy = read.csv("~/UCSD/Github/Corr_residuals_xy.csv", header = T)
+xy = read.csv("~/Github/Corr_residuals_xy.csv", header = T)
 xy
 
 
