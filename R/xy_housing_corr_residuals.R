@@ -1,4 +1,3 @@
-# Intro to Statistics Using R: Homework 8
 # Problem 1
 xy = read.csv("Corr_residuals_xy.csv", header = T)
 xy
