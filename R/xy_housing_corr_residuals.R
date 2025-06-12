@@ -1,3 +1,5 @@
+# Calculating correlation coefficients and linear regression for two different datasets provided in class
+
 # Problem 1
 xy = read.csv("Corr_residuals_xy.csv", header = T)
 xy
