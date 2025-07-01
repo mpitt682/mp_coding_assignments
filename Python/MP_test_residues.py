@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+# TEST SCRIPT FOR residuecounter.py class script
 import residuecounter
 
 def main():
