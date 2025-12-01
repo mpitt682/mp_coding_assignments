@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-#Random number face-off between two players
+#Random number face-off between two players. Random numbers are from 1-10 and the script runs for 5 rounds.
 
+#keeps a running tally of how many wins each player has
 declare -i P1_wins=0
 declare -i P2_wins=0
 
@@ -23,6 +24,7 @@ do
 	fi
 done
 
+#Whoever has the most wins is declared the winner.
 echo
 if (( $P1_wins > $P2_wins ))
 then
