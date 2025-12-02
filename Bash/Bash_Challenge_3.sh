@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Interactive menu to get responses for either a male or female cat at different times of day.
-
+# Response options
 declare -A fc_spec
 fc_spec[6am]="Where's my breakfast? Gimme my dry food."
 fc_spec[12pm]="I'm sleepy. Give me my heated cat bed."
@@ -60,8 +60,10 @@ do
         case $time_slot in
 		6am|12pm|6pm|10pm) if [[ ! -z $fc ]]; then echo $fc says \"${fc_spec["$time_slot"]}\";
 		elif [[ ! -z $mc ]]; then echo $mc says \"${mc_spec["$time_slot"]}\"; else echo "Something went wrong"; fi;;
+		
 		anytime) if [[ ! -z $fc ]]; then echo $fc says \"${fc_any[rand_num]}\"; elif [[ ! -z $mc ]]; 
 		then echo $mc says \"${mc_any[rand_num]}\"; else echo "Something went wrong."; fi;;
+		
 		quit) break;;
 		*) echo "Not a valid option. Please choose a number from the menu.";;
         esac
