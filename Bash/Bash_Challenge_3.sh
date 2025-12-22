@@ -18,14 +18,14 @@ declare -a fc_any=(
 "Gimme your lap!"
 "I need a back scratch"
 "This food isn't FRESH. Gimme more"
-"I will destroy you, purple mouse toy!"
+"I will destroy you, purple mouse!"
 "The service around here is abysmal.")
 
 declare -a mc_any=(
 "I need a full-body massage, STAT!"
 "My butt itches, I need you to scratch it."
 "If you need me I'll be under my hydrangea."
-"Take THAT, Mr. Fluff toy!"
+"Take THAT, Mr. Fluff!"
 "Run run run, romp romp romp")
 
 echo "Talking Cat Activity"
